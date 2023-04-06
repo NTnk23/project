@@ -92,9 +92,9 @@ class componentInfo extends StatelessWidget {
       scrollDirection: Axis.vertical,
       itemBuilder: (BuildContext context,int index){
         return ListTile(
-            leading: CircleAvatar(
+            /*leading: CircleAvatar(
               backgroundColor: Theme.of(context).accentColor,
-            ),
+            ),*/
             title: Text(component[index],
                 style: TextStyle(
                     color: Colors.black,
@@ -119,9 +119,9 @@ class solutionCake extends StatelessWidget {
       scrollDirection: Axis.vertical,
       itemBuilder: (BuildContext context,int index){
         return ListTile(
-            leading: CircleAvatar(
+            /*leading: CircleAvatar(
               backgroundColor: Theme.of(context).accentColor,
-            ),
+            ),*/
             title: Text(infoCake[index],
                 style: TextStyle(
                     color: Colors.black,
